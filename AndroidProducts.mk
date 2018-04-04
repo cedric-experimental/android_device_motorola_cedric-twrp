@@ -15,3 +15,6 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_cedric.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_cedric-eng
