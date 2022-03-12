@@ -61,6 +61,7 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
 else
 TARGET_KERNEL_CONFIG := cedric_recovery_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
+TARGET_KERNEL_CLANG_COMPILE := false
 endif
 
 # Partitions
